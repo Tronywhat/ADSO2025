@@ -1,122 +1,78 @@
-/* ===================================================
-   🛠️ Reset básico: Elimina márgenes y paddings predeterminados
-   =================================================== */
-   * {
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Asegura que el padding y border no afecten el tamaño real del elemento */
+    box-sizing: border-box;
 }
-
-/* ===================================================
-   🎨 Estilos generales para la página
-   =================================================== */
-body {
-    font-family: Arial, sans-serif; /* Define la fuente de la página */
-    background-color: #1b2838; /* Color de fondo similar a Steam */
-    color: white; /* Color de texto blanco para mejor contraste */
-    text-align: center; /* Centra el texto dentro del body */
+body { 
+    font-family: Arial, sans-serif;
+    background-color: #171d25;
+    color: #dcdedf;
+    text-align: center;
 }
-
-/* ===================================================
-   🔹 Estilos del header (barra de navegación)
-   =================================================== */
 header {
-    display: flex; /* Usa flexbox para distribuir los elementos */
-    justify-content: space-between; /* Separa el logo y el menú de navegación */
-    align-items: center; /* Centra verticalmente los elementos */
-    background-color: #171a21; /* Color oscuro de fondo */
-    padding: 15px 20px; /* Espaciado interno del header */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #171a21;
+    padding: 15px 20px;
 }
-
-/* 🔹 Estilo del logo */
 .logo h1 {
-    color: #66c0f4; /* Color azul de Steam */
+    color: #66c0f4;
 }
-
-/* 🔹 Estilos del menú de navegación */
 nav ul {
-    list-style: none; /* Elimina los estilos predeterminados de lista (viñetas) */
-    display: flex; /* Acomoda los elementos en una fila */
+    list-style: none;
+    display: flex;
 }
-
 nav ul li {
-    margin: 0 15px; /* Espaciado entre los elementos del menú */
+    margin: 0 15px;
 }
-
-/* 🔹 Estilos de los enlaces del menú */
 nav ul li a {
-    text-decoration: none; /* Quita el subrayado de los enlaces */
-    color: white; /* Color del texto en blanco */
-    font-weight: bold; /* Hace el texto más grueso */
+    text-decoration: none;
+    color: #dcdedf;
+    font-weight: bold;
 }
-
-/* ===================================================
-   🖼️ Estilos del Banner Principal
-   =================================================== */
 .banner {
-    background-color: #2a475e; /* Color de fondo azul oscuro */
-    padding: 50px; /* Espaciado interno */
+    background-color: #316282;
+    padding: 50px;
 }
-
-/* 🔹 Título del banner */
 .banner h2 {
-    font-size: 2em; /* Tamaño de fuente más grande */
-    margin-bottom: 10px; /* Espaciado debajo del título */
+    font-size: 2em;
+    margin-bottom: 10px;
 }
-
-/* 🔹 Botón del banner */
 .banner button {
-    padding: 10px 20px; /* Espaciado interno del botón */
-    font-size: 1em; /* Tamaño del texto */
-    background-color: #66c0f4; /* Color de fondo azul */
-    border: none; /* Quita el borde */
-    color: white; /* Color del texto */
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #66c0f4;
+    border: none;
+    color: white;
 }
-
-/* 🔹 Efecto cuando el mouse pasa sobre el botón */
 .banner button:hover {
-    background-color: #417a9b; /* Oscurece el botón al pasar el mouse */
+    background-color: #417a9b;
 }
-
-/* ===================================================
-   🎮 Sección de juegos destacados
-   =================================================== */
 .destacados {
-    margin: 40px 0; /* Margen superior e inferior */
+    margin: 40px 0;
 }
-
-/* 🔹 Contenedor de los juegos */
 .juegos-container {
-    display: flex; /* Usa flexbox para acomodar los juegos en una fila */
-    justify-content: center; /* Centra los juegos horizontalmente */
-    gap: 20px; /* Espacio entre los juegos */
-    margin-top: 20px; /* Espaciado superior */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
 }
-
-/* 🔹 Estilos individuales para cada juego */
 .juego {
-    background-color: #171a21; /* Color de fondo */
-    padding: 15px; /* Espaciado interno */
-    border-radius: 5px; /* Bordes redondeados */
+    background-color: #171a21;
+    padding: 15px;
+    border-radius: 5px;
 }
-
-/* 🔹 Imágenes de los juegos */
 .juego img {
-    width: 30em; /* Ajusta el tamaño de las imágenes */
-    border-radius: 5px; /* Bordes redondeados en las imágenes */
+    width: 30em;
+    border-radius: 5px;
 }
-
-/* 🔹 Texto del juego */
 .juego p {
-    margin-top: 10px; /* Espaciado superior */
-    font-size: 1.2em; /* Tamaño del texto */
+    margin-top: 10px;
+    font-size: 1.2em;
 }
-
-/* ===================================================
-   🔚 Pie de página (Footer)
-   =================================================== */
 footer {
-    background-color: #171a21; /* Color de fondo oscuro */
-    padding: 15px; /* Espaciado interno */
-    margin-top: 30px; /* Espaciado superior para separarlo del contenido */
+    background-color: #171a21;
+    padding: 15px;
+    margin-top: 30px;/
 }
