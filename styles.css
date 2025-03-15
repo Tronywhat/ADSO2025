@@ -1,0 +1,122 @@
+/* ===================================================
+   🛠️ Reset básico: Elimina márgenes y paddings predeterminados
+   =================================================== */
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Asegura que el padding y border no afecten el tamaño real del elemento */
+}
+
+/* ===================================================
+   🎨 Estilos generales para la página
+   =================================================== */
+body {
+    font-family: Arial, sans-serif; /* Define la fuente de la página */
+    background-color: #1b2838; /* Color de fondo similar a Steam */
+    color: white; /* Color de texto blanco para mejor contraste */
+    text-align: center; /* Centra el texto dentro del body */
+}
+
+/* ===================================================
+   🔹 Estilos del header (barra de navegación)
+   =================================================== */
+header {
+    display: flex; /* Usa flexbox para distribuir los elementos */
+    justify-content: space-between; /* Separa el logo y el menú de navegación */
+    align-items: center; /* Centra verticalmente los elementos */
+    background-color: #171a21; /* Color oscuro de fondo */
+    padding: 15px 20px; /* Espaciado interno del header */
+}
+
+/* 🔹 Estilo del logo */
+.logo h1 {
+    color: #66c0f4; /* Color azul de Steam */
+}
+
+/* 🔹 Estilos del menú de navegación */
+nav ul {
+    list-style: none; /* Elimina los estilos predeterminados de lista (viñetas) */
+    display: flex; /* Acomoda los elementos en una fila */
+}
+
+nav ul li {
+    margin: 0 15px; /* Espaciado entre los elementos del menú */
+}
+
+/* 🔹 Estilos de los enlaces del menú */
+nav ul li a {
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: white; /* Color del texto en blanco */
+    font-weight: bold; /* Hace el texto más grueso */
+}
+
+/* ===================================================
+   🖼️ Estilos del Banner Principal
+   =================================================== */
+.banner {
+    background-color: #2a475e; /* Color de fondo azul oscuro */
+    padding: 50px; /* Espaciado interno */
+}
+
+/* 🔹 Título del banner */
+.banner h2 {
+    font-size: 2em; /* Tamaño de fuente más grande */
+    margin-bottom: 10px; /* Espaciado debajo del título */
+}
+
+/* 🔹 Botón del banner */
+.banner button {
+    padding: 10px 20px; /* Espaciado interno del botón */
+    font-size: 1em; /* Tamaño del texto */
+    background-color: #66c0f4; /* Color de fondo azul */
+    border: none; /* Quita el borde */
+    color: white; /* Color del texto */
+}
+
+/* 🔹 Efecto cuando el mouse pasa sobre el botón */
+.banner button:hover {
+    background-color: #417a9b; /* Oscurece el botón al pasar el mouse */
+}
+
+/* ===================================================
+   🎮 Sección de juegos destacados
+   =================================================== */
+.destacados {
+    margin: 40px 0; /* Margen superior e inferior */
+}
+
+/* 🔹 Contenedor de los juegos */
+.juegos-container {
+    display: flex; /* Usa flexbox para acomodar los juegos en una fila */
+    justify-content: center; /* Centra los juegos horizontalmente */
+    gap: 20px; /* Espacio entre los juegos */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+/* 🔹 Estilos individuales para cada juego */
+.juego {
+    background-color: #171a21; /* Color de fondo */
+    padding: 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* 🔹 Imágenes de los juegos */
+.juego img {
+    width: 30em; /* Ajusta el tamaño de las imágenes */
+    border-radius: 5px; /* Bordes redondeados en las imágenes */
+}
+
+/* 🔹 Texto del juego */
+.juego p {
+    margin-top: 10px; /* Espaciado superior */
+    font-size: 1.2em; /* Tamaño del texto */
+}
+
+/* ===================================================
+   🔚 Pie de página (Footer)
+   =================================================== */
+footer {
+    background-color: #171a21; /* Color de fondo oscuro */
+    padding: 15px; /* Espaciado interno */
+    margin-top: 30px; /* Espaciado superior para separarlo del contenido */
+}
